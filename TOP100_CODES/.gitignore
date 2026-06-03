@@ -1,3 +1,18 @@
+# 1. Ignore absolutely all files
+*
+
+# 2. Do not ignore folders (so Git can search them)
+!*/
+
+# 3. Do not ignore files that have an extension (contain a dot)
+!*.*
+
+# 4. Manual overrides for common extensionless text files you DO want to push
+!Makefile
+!README
+
+
+
 *.o
 *.out
 *.exe
